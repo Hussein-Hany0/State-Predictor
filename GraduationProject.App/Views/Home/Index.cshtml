@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "OLSM | Home Page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+}
+
+<div class="container">
+        <h1>Welcome to OLMS!</h1>
+
+        <hr>
+
+        <p>
+            Ensure the best environment of online education...
+        </p>
+
+        <p>
+            Whether you're a student or an instructor, didn't you find online classes lacking in the
+            aspect of noticing engagement state of the students and the student-instructor human interaction?
+            <br>
+            Our solution uses an AI-assisted system to convey students' state of mind to the instructor through
+            a real-time, comprehensive, and user-friendly dashboard.
+        </p>
+
+        <div class="d-create">
+        <a asp-action="preview" asp-controller="Meeting" asp-route-Id="@Model.UserId" class="a-create">
+                Click here to experience our service <i class="fas fa-graduation-cap ml-2"></i>
+            </a>
+        </div>
+</div>

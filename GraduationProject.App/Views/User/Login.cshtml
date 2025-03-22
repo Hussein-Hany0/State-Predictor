@@ -1,0 +1,48 @@
+﻿@model UserViewModel;
+@{
+    ViewData["Title"] = "OLSM | Login Page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+}
+
+<div class="container">
+    <d>
+        <h2>Login</h2>
+        <p>Please enter your login and password!</p>
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="error-message">
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <p style="margin:0px">@error.ErrorMessage</p>
+                        }
+                    </div>
+                }
+
+        <form method="post" asp-controller="User" asp-action="Login">
+            <div>
+                <label>Email</label>
+                <input type="email" name="Email" required />
+                <span asp-validation-for="@Model.Email"></span>
+            </div>
+
+            <div>
+                <label>Password</label>
+                <input type="password" name="Password" required />
+            </div>
+
+            <p>
+                <a>Forgot password?</a>
+            </p>
+
+            <button type="submit">Login</button>
+        </form>
+    </d>
+
+    <div>
+        <p>Don't have an account yet? <a asp-action="Regiser" asp-controller="Home">Sign Up</a></p>
+    </div>
+</div>

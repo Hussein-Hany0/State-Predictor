@@ -1,0 +1,65 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Sign Up Page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/register.css" asp-append-version="true" />
+}
+
+<div class="container">
+    <h2>Sign Up</h2>
+
+    <form method="post" asp-action="Register" asp-controller="User">
+        <p>Please complete the following fields!</p>
+
+        <div>
+            <label asp-for="UserName"></label>
+            <input asp-for="UserName" />
+        </div>
+
+        <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+
+        <div class="password">
+            <div>
+                <label asp-for="Password"></label>
+                <input asp-for="Password" />
+            </div>
+            <div>
+                <label>Repeat Password</label>
+                <input type="password" name="repeatedPassword" required />
+            </div>
+        </div>
+
+        <div class="gender">
+            <div>
+                <label for="female">Female</label>
+                <input id="female" type="radio" name="Gender" value="0" required />
+            </div>
+
+            <div>
+                <label for="male">Male</label>
+                <input id="male" type="radio" name="Gender" value="1" />
+            </div>
+        </div>
+
+        <div class="terms">
+            <input id="terms" type="checkbox" value="" required />
+            <label for="terms">I accept OLSM terms and conditions.</label>
+        </div>
+
+        <input type="submit" value="Sign Up" />
+    </form>
+
+    <div>
+        <p>Have an account already? <a asp-action="Login" asp-controller="Home">Login</a></p>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/register.js" asp-append-version="true"></script>
+}

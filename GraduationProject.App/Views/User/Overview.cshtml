@@ -1,0 +1,35 @@
+﻿@model User
+@{
+    ViewData["Title"] = "OLSM | Overview";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/overview.css" asp-append-version="true" />
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Course</th>
+            <th>Title</th>
+            <th>Meeting Link</th>
+            <th>lecture prediction summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Lecture lecture in ViewBag.Lectures)
+        {
+            <tr>
+                <td>@lecture.Course</td>
+                <td>@lecture.Title</td>
+                <td>@lecture.Link</td>
+                <th>summary link</th>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/overview.js" asp-append-version="true"></script>
+}

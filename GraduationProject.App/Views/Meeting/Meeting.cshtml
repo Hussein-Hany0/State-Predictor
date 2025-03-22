@@ -1,0 +1,52 @@
+﻿@model User
+
+@section Styles {
+    <link href="~/css/preview.css" rel="stylesheet" asp-append-version="true"/>
+}
+
+<div class="grid-page flex-container" id="meetingPage">
+    <div class="meeting-buttons-wrapper">
+        <div class="meeting-id-copy">
+            <input type="text" id="meetingId"/>
+
+            <button type="button" onclick="copyMeetingCodeToClipboard()">copy</button>
+        </div>
+
+        <div class="meeting-right-buttons">
+
+            <button type="button">Record</button>
+
+            <button type="button" id="raiseHandButton">Raise</button>
+
+            <button type="button" id="meetingMicButton">mic</button>
+
+            <button type="button" id="meetingCamButton">camera</button>
+
+            <button type="button">share</button>
+
+            <button type="button" onclick="openParticipantWrapper()">participants</button>
+
+            <button type="button" onclick="openChatWrapper()">chat</button>
+
+            <button type="button">Leave</button>
+
+            <button type="button">End</button>
+        </div>
+    </div>
+
+    <div class="row" id="videoContainer"></div>
+</div>
+<script>
+    let user = @Html.Raw(Json.Serialize(Model));
+    let hostName = @Html.Raw(Json.Serialize(ViewData["hostName"]));
+    let meetingId = @Html.Raw(Json.Serialize(ViewData["meetingId"]));
+    let isNewMeeting = @Html.Raw(Json.Serialize(ViewData["isNewMeeting"]));
+</script>
+
+@section Scripts {
+    <script src="https://sdk.videosdk.live/js-sdk/0.0.82/videosdk.js"></script>
+    <script src="~/js/signalr.min.js"></script>
+    <script src="~/js/meetingConfigs.js" asp-append-version="true"></script>
+    <script src="~/js/meeting.js" asp-append-version="true"></script>
+    <script src="~/js/meetingSnapshot.js" asp-append-version="true"></script>
+}
