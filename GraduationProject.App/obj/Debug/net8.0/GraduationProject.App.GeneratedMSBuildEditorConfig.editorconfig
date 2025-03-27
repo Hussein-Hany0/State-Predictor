@@ -17,71 +17,71 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GraduationProject.App
 build_property.RootNamespace = GraduationProject.App
-build_property.ProjectDir = C:\Users\Hussein\Desktop\Graduation\GraduationProject.App\
+build_property.ProjectDir = C:\Users\Hussein\Desktop\GraduationProject\GraduationProject.App\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Hussein\Desktop\Graduation\GraduationProject.App
+build_property.MSBuildProjectDirectory = C:\Users\Hussein\Desktop\GraduationProject\GraduationProject.App
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/Home/Error.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/Home/Index.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/Home/Privacy.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/Meeting/Dashboard.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/Meeting/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/Meeting/Meeting.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/Meeting/Meeting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xNZWV0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/Meeting/Preview.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/Meeting/Preview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xQcmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/User/ChangePassword.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/User/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/User/CreateLecture.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/User/CreateLecture.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVMZWN0dXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/User/Login.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/User/Overview.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/User/Overview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxPdmVydmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/User/Register.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/_ViewImports.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/_ViewStart.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hussein/Desktop/Graduation/GraduationProject.App/Views/Shared/_Layout.cshtml]
+[C:/Users/Hussein/Desktop/GraduationProject/GraduationProject.App/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kuk19qsj9n

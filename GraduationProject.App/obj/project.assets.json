@@ -5840,11 +5840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hussein\\Desktop\\Graduation\\GraduationProject.App\\GraduationProject.App.csproj",
+      "projectUniqueName": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\GraduationProject.App.csproj",
       "projectName": "GraduationProject.App",
-      "projectPath": "C:\\Users\\Hussein\\Desktop\\Graduation\\GraduationProject.App\\GraduationProject.App.csproj",
+      "projectPath": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\GraduationProject.App.csproj",
       "packagesPath": "C:\\Users\\Hussein\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hussein\\Desktop\\Graduation\\GraduationProject.App\\obj\\",
+      "outputPath": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hussein\\AppData\\Roaming\\NuGet\\NuGet.Config",
