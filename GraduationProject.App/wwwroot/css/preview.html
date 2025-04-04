@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVision | Meeting Preview</title>
+    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preview-page">
+        <!-- Left Side: Video Preview -->
+        <div class="preview-left-side">
+            <div class="video-container">
+                <video class="video-frame" id="previewCamera" autoplay muted></video>
+                <div class="video-overlay">
+                    <h3>Camera Preview</h3>
+                    <p>Test your camera and microphone before joining the meeting.</p>
+                </div>
+                <div class="preview-audio-video-buttons">
+                    <button id="micButton" onclick="togglePreviewMic()" class="control-btn">
+                        <i class="fas fa-microphone"></i> Microphone
+                    </button>
+                    <button id="camButton" onclick="togglePreviewCamera()" class="control-btn">
+                        <i class="fas fa-video"></i> Camera
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: Meeting Options -->
+        <div class="preview-right-side">
+            <div class="meeting-options">
+                <h2>Join or Create a Meeting</h2>
+                <div class="create-meeting-input-fields">
+                    <button onclick="alert('Creating a new meeting...')" class="action-btn primary-btn">Create a Meet</button>
+                    <button onclick="showJoinMeetingInputFields()" class="action-btn secondary-btn">Join a Meet</button>
+                </div>
+                <div class="join-meeting-input-fields">
+                    <form>
+                        <input type="text" name="meetingId" placeholder="Enter Meeting Code" required>
+                        <input type="text" name="hostName" value="Guest User" readonly>
+                        <button type="submit" class="action-btn primary-btn">Join a Meet</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Feature Highlights -->
+            <div class="feature-highlights">
+                <h3>Why EduVision?</h3>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <i class="fas fa-smile-beam"></i>
+                        <p>Emotion Prediction: Understand student moods in real-time.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-hand-paper"></i>
+                        <p>Hand Sign Interaction: Inclusive communication for all.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-eye"></i>
+                        <p>Eye Gesture Tracking: Monitor focus and engagement.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-chart-line"></i>
+                        <p>Live Dashboard: Real-time insights for teachers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://sdk.videosdk.live/js-sdk/0.0.82/videosdk.js"></script>
+    <script src="../js/preview.js"></script>
+</body>
+</html>
