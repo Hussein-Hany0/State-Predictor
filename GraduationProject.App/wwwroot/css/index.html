@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVision</title>
+    <link rel="stylesheet" href="home.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">EduVision</div>
+            <button class="navbar-toggle" aria-label="Toggle navigation">
+                <span class="hamburger">☰</span>
+                <span class="cancel" style="display: none;">✖</span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="#" class="close-menu">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Meetings</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="close-menu">Dashboard</a></li>
+                        <li><a href="#" class="close-menu">Schedule Meeting</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">User</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="close-menu">Login</a></li>
+                        <li><a href="#" class="close-menu">Register</a></li>
+                        <li><a href="#" class="close-menu">Change Password</a></li>
+                        <li><a href="#" class="close-menu">Overview</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="close-menu">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1>Welcome to EduVision</h1>
+            <p class="tagline">Revolutionizing Online Education with AI-Powered Insights</p>
+            <hr class="divider">
+        </section>
+
+        <!-- Intro Section -->
+        <section class="intro">
+            <p>
+                Elevate your online learning experience with a platform designed to bridge the gap between students and instructors.
+            </p>
+            <p>
+                Traditional online meetings miss the human connection—student engagement, focus, and interaction. EduVision changes that with cutting-edge AI features tailored for education.
+            </p>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Why Choose EduVision?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-smile-beam fa-2x"></i>
+                    <h3>Emotion Prediction</h3>
+                    <p>Detect students' emotions in real-time using facial analysis to gauge understanding and mood.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-hand-paper fa-2x"></i>
+                    <h3>Hand Sign Interaction</h3>
+                    <p>Enable communication through hand gestures for inclusive participation, even for those who can’t speak.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-eye fa-2x"></i>
+                    <h3>Eye Gesture Tracking</h3>
+                    <p>Monitor focus and attention with eye movement analysis to ensure students stay engaged.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-line fa-2x"></i>
+                    <h3>Live Dashboard</h3>
+                    <p>Teachers get real-time updates and a final report on each student’s engagement and performance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <p>Ready to transform your online classroom?</p>
+            <div class="d-create">
+                <a href="#" class="a-create btn">Try EduVision Now <i class="fas fa-graduation-cap ml-2"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <!-- JavaScript for Navigation Toggle -->
+    <script>
+        const toggleButton = document.querySelector('.navbar-toggle');
+        const menu = document.querySelector('.navbar-menu');
+        const hamburgerIcon = document.querySelector('.hamburger');
+        const cancelIcon = document.querySelector('.cancel');
+
+        toggleButton.addEventListener('click', function () {
+            menu.classList.toggle('active');
+            if (menu.classList.contains('active')) {
+                hamburgerIcon.style.display = 'none';
+                cancelIcon.style.display = 'block';
+            } else {
+                hamburgerIcon.style.display = 'block';
+                cancelIcon.style.display = 'none';
+            }
+        });
+
+        document.querySelectorAll('.dropdown').forEach(dropdown => {
+            dropdown.addEventListener('click', function (e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    this.classList.toggle('active');
+                }
+            });
+        });
+
+        document.querySelectorAll('.close-menu').forEach(link => {
+            link.addEventListener('click', function () {
+                if (window.innerWidth <= 768) {
+                    menu.classList.remove('active');
+                    hamburgerIcon.style.display = 'block';
+                    cancelIcon.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- Optional: Add JavaScript for interactivity if needed -->
+<!-- <script src="~/js/home.js" asp-append-version="true"></script> -->
