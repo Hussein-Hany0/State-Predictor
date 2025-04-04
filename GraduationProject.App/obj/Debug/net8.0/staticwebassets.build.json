@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6rVc/3fmn8mkB4DT7iwCQ5zpRT2RPejZlsC43HvasW8=",
+  "Hash": "vNbwZ1VgQ8sunyTVXYCcnUOEFpajvJdd9mVUbCrFiBc=",
   "Source": "GraduationProject.App",
   "BasePath": "_content/GraduationProject.App",
   "Mode": "Default",
@@ -587,25 +587,6 @@
       "OriginalItemSpec": "wwwroot\\js\\signalr.js"
     },
     {
-      "Identity": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\js\\signalr.js.map",
-      "SourceId": "GraduationProject.App",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\",
-      "BasePath": "_content/GraduationProject.App",
-      "RelativePath": "js/signalr.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\signalr.js.map"
-    },
-    {
       "Identity": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\js\\signalr.min.js",
       "SourceId": "GraduationProject.App",
       "SourceType": "Discovered",
@@ -623,25 +604,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\signalr.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\js\\signalr.min.js.map",
-      "SourceId": "GraduationProject.App",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\",
-      "BasePath": "_content/GraduationProject.App",
-      "RelativePath": "js/signalr.min.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\signalr.min.js.map"
     },
     {
       "Identity": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

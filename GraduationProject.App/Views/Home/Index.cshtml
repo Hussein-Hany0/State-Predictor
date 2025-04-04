@@ -25,7 +25,11 @@
 
         <div class="d-create">
         <a asp-action="preview" asp-controller="Meeting" asp-route-Id="@Model.UserId" class="a-create">
-                Click here to experience our service <i class="fas fa-graduation-cap ml-2"></i>
-            </a>
+                Click here to experience our full service <i class="fas fa-graduation-cap ml-2"></i>
+        </a>
+        <br />
+        <a asp-action="CreateLecture" asp-controller="User" asp-route-Id="@Model.UserId" class="a-create">
+            Or Just Try the Model <i class="fas fa-graduation-cap ml-2"></i>
+        </a>
         </div>
 </div>

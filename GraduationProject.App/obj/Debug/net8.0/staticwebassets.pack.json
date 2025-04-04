@@ -117,16 +117,8 @@
       "PackagePath": "staticwebassets\\js\\signalr.js"
     },
     {
-      "Id": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\js\\signalr.js.map",
-      "PackagePath": "staticwebassets\\js\\signalr.js.map"
-    },
-    {
       "Id": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\js\\signalr.min.js",
       "PackagePath": "staticwebassets\\js\\signalr.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\js\\signalr.min.js.map",
-      "PackagePath": "staticwebassets\\js\\signalr.min.js.map"
     },
     {
       "Id": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\LICENSE",
