@@ -1,12 +1,69 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{186876CF-2722-4F8E-8AAD-314B410BF060}|GraduationProject.App\\GraduationProject.App.csproj|c:\\users\\hussein\\desktop\\graduationproject\\graduationproject.app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{186876CF-2722-4F8E-8AAD-314B410BF060}|GraduationProject.App\\GraduationProject.App.csproj|solutionrelative:graduationproject.app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186876CF-2722-4F8E-8AAD-314B410BF060}|GraduationProject.App\\GraduationProject.App.csproj|c:\\users\\hussein\\desktop\\graduationproject\\graduationproject.app\\views\\meeting\\meeting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{186876CF-2722-4F8E-8AAD-314B410BF060}|GraduationProject.App\\GraduationProject.App.csproj|solutionrelative:graduationproject.app\\views\\meeting\\meeting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186876CF-2722-4F8E-8AAD-314B410BF060}|GraduationProject.App\\GraduationProject.App.csproj|c:\\users\\hussein\\desktop\\graduationproject\\graduationproject.app\\views\\meeting\\preview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{186876CF-2722-4F8E-8AAD-314B410BF060}|GraduationProject.App\\GraduationProject.App.csproj|solutionrelative:graduationproject.app\\views\\meeting\\preview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Meeting.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\Views\\Meeting\\Meeting.cshtml",
+              "RelativeDocumentMoniker": "GraduationProject.App\\Views\\Meeting\\Meeting.cshtml",
+              "ToolTip": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\Views\\Meeting\\Meeting.cshtml",
+              "RelativeToolTip": "GraduationProject.App\\Views\\Meeting\\Meeting.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T10:50:36.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Preview.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\Views\\Meeting\\Preview.cshtml",
+              "RelativeDocumentMoniker": "GraduationProject.App\\Views\\Meeting\\Preview.cshtml",
+              "ToolTip": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\Views\\Meeting\\Preview.cshtml",
+              "RelativeToolTip": "GraduationProject.App\\Views\\Meeting\\Preview.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T10:50:24.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GraduationProject.App\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hussein\\Desktop\\GraduationProject\\GraduationProject.App\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GraduationProject.App\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAwAAABAZmZmZmYkwBkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T10:47:52.017Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
